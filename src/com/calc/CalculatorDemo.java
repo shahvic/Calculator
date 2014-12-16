@@ -8,6 +8,7 @@ public class CalculatorDemo {
 		Functions f= new Functions();
 		System.out.println(f.add(1, 2));
 		System.out.println(f.sub(2, 1));
+		System.out.println("Demo Ends-Server commit");
 		
 	}
 
