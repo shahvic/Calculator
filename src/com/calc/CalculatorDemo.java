@@ -9,6 +9,7 @@ public class CalculatorDemo {
 		System.out.println(f.add(1, 2));
 		System.out.println(f.sub(2, 1));
 		System.out.println(f.multiply(2, 1));
+		System.out.println("User 2 changes");
 		
 	}
 
