@@ -11,6 +11,7 @@ public class CalculatorDemo {
 		System.out.println(f.multiply(2, 1));
 		System.out.println("User 2 changes");
 		System.out.println("User 1 changes");
+System.out.println("User 3 changes");
 		
 	}
 
