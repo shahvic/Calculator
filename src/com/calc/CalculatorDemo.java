@@ -1,5 +1,7 @@
 package com.calc;
 
+import com.calc.Functions;
+
 public class CalculatorDemo {
 
 	public static void main(String[] args) {
