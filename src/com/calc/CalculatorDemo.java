@@ -16,6 +16,8 @@ public class CalculatorDemo {
 System.out.println("User 3 changes");
 System.out.println("User 4 changes");
 System.out.println("User 6 changes");
+System.out.println("User 4 changes");
+System.out.println("User 6 changes");
 		
 	}
 
