@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="1" hostname="PHUSEH-W64030" name="com.calc.Junit.FunctionsTest" skipped="0" tests="2" time="0.115" timestamp="2015-04-27T12:06:22">
+  <properties>
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="java.home" value="C:\Software\jdk1.6.0_38\jre" />
+    <property name="env.NovInstOptApps" value="0" />
+    <property name="env.NovAppCatalog" value="CAT_PHDEV-GLOBAL_T_01" />
+    <property name="java.endorsed.dirs" value="C:\Software\jdk1.6.0_38\jre\lib\endorsed" />
+    <property name="env.USERNAME" value="meshrni1" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.HUDSON_HOME" value="C:\Jenkins" />
+    <property name="src.dir" value="C:\TestAntProject\Calculator\src" />
+    <property name="env.NovBusinessUnit" value="NOTAPPLICABLE" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="java.vendor.url" value="http://java.sun.com/" />
+    <property name="env.COMPUTERNAME" value="PHUSEH-W64030" />
+    <property name="env.=C:" value="C:\TestAntProject\Calculator" />
+    <property name="env.NODE_NAME" value="master" />
+    <property name="env.windows_tracing_flags" value="3" />
+    <property name="java.version" value="1.6.0_38" />
+    <property name="env.NovBuildRelease" value="03" />
+    <property name="env.NODE_LABELS" value="master" />
+    <property name="env.JENKINS_SERVER_COOKIE" value="e29360d22b1ed7cc" />
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+    <property name="env.USERPROFILE" value="C:\Users\MESHRNI1" />
+    <property name="ant.project.invoked-targets" value="build" />
+    <property name="env.SystemRoot" value="C:\WINDOWS" />
+    <property name="user.name" value="meshrni1" />
+    <property name="env.NovNoProxy" value="0" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="env.MFHOOK" value="C:\Program Files\Citrix\ICAService\" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\MESHRNI1\AppData\Local" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="user.timezone" value="" />
+    <property name="path.separator" value=";" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="x86 Family 6 Model 45 Stepping 7, GenuineIntel" />
+    <property name="env._JAVACMD" value="C:\Software\jdk1.6.0_38\bin\java.exe" />
+    <property name="env.NovRestrictedMachine" value="0" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="env.HOME" value="H:\" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.calc.Junit.FunctionsTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\TestAntProject\Calculator\${test.report.dir}\TEST-com.calc.Junit.FunctionsTest.xml crashfile=C:\TestAntProject\Calculator\junitvmwatcher5889558908472677628.properties propsfile=C:\TestAntProject\Calculator\junit4815234991049987548.properties" />
+    <property name="env.NUMBER_OF_PROCESSORS" value="2" />
+    <property name="env.APPDATA" value="C:\Users\MESHRNI1\AppData\Roaming" />
+    <property name="ant.file" value="C:\TestAntProject\Calculator\build.xml" />
+    <property name="ant.file.Calculator" value="C:\TestAntProject\Calculator\build.xml" />
+    <property name="env.NovOSDRegionalSettings" value="0409:00000409;en-US" />
+    <property name="env.NovIsUME" value="0" />
+    <property name="env.BUILD_TAG" value="jenkins-JenkinsJunitTest-14" />
+    <property name="java.io.tmpdir" value="C:\Users\MESHRNI1\AppData\Local\Temp\" />
+    <property name="env.NovMachineDomain" value="na.novartis.net" />
+    <property name="user.language" value="en" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="target" value="1.7" />
+    <property name="ant.file.type" value="file" />
+    <property name="env.NovBaseImage" value="Win 7 Base Image 02.03" />
+    <property name="env.JOB_NAME" value="JenkinsJunitTest" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="source" value="1.7" />
+    <property name="env.BUILD_DISPLAY_NAME" value="#14" />
+    <property name="env.DEFLOGDIR" value="C:\ProgramData\McAfee\DesktopProtection" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.BUILD_URL" value="http://JenkinsJunit:8080/job/JenkinsJunitTest/14/" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="NANET" />
+    <property name="env.NovSite" value="USEH" />
+    <property name="env.LOGONSERVER" value="\\PHUSEH-S4202" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.HUDSON_SERVER_COOKIE" value="e29360d22b1ed7cc" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+    <property name="env.USERDOMAIN" value="NANET" />
+    <property name="env.NovNameSuffix" value="W64030" />
+    <property name="build.test.dir" value="C:\TestAntProject\Calculator\bin\tests" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+    <property name="env.windir" value="C:\WINDOWS" />
+    <property name="env.BUILD_NUMBER" value="14" />
+    <property name="env.NovInstallUser" value="sys_domjoin" />
+    <property name="os.name" value="Windows 7" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="env.TMP" value="C:\Users\MESHRNI1\AppData\Local\Temp" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.JOB_URL" value="http://JenkinsJunit:8080/job/JenkinsJunitTest/" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="java.library.path" value="C:\Software\jdk1.6.0_38\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;/bin;/bin;C:\Software\jdk1.6.0_38\bin;." />
+    <property name="env.HUDSON_URL" value="http://JenkinsJunit:8080/" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="env.JENKINS_URL" value="http://JenkinsJunit:8080/" />
+    <property name="basedir" value="C:\TestAntProject\Calculator" />
+    <property name="java.class.version" value="50.0" />
+    <property name="ant.home" value="C:\Jenkins\tools\hudson.tasks.Ant_AntInstallation\C_Software_apache-ant-1.9.2" />
+    <property name="env.Path" value="/bin;/bin;C:\Software\jdk1.6.0_38\bin" />
+    <property name="env.JENKINS_HOME" value="C:\Jenkins" />
+    <property name="env.NovBuildName" value="Clientvision" />
+    <property name="env.HOMEDRIVE" value="H:" />
+    <property name="env.NovOwningBU" value="Pharma Development" />
+    <property name="env.HOMESHARE" value="\\PHUSEH-S1802.NA.NOVARTIS.NET\MESHRNI1$" />
+    <property name="env.windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log" />
+    <property name="sun.boot.library.path" value="C:\Software\jdk1.6.0_38\jre\bin" />
+    <property name="build.dir" value="C:\TestAntProject\Calculator\bin" />
+    <property name="env.PROCESSOR_REVISION" value="2d07" />
+    <property name="env.VSEDEFLOGDIR" value="C:\ProgramData\McAfee\DesktopProtection" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="user.variant" value="" />
+    <property name="env.NovBuildVersion" value="02" />
+    <property name="env.NovUsingBU" value="Pharma Development" />
+    <property name="env.NovOwner" value="MESHRNI1" />
+    <property name="env.NovNoSleep" value="0" />
+    <property name="ant.project.name" value="Calculator" />
+    <property name="env.NovOSDTaskSequence" value="OSD_Win7 v02.03_T_EN_01" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="env.NovInstallServer" value="phuseh-s3465.novartis.net" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="env.MAVEN_HOME" value="C:\Software\apache-maven-3.1.1" />
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+    <property name="java.ext.dirs" value="C:\Software\jdk1.6.0_38\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="os.version" value="6.1" />
+    <property name="env.ERROR_CODE" value="0" />
+    <property name="user.home" value="C:\Users\MESHRNI1" />
+    <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+    <property name="ant.file.type.Calculator" value="file" />
+    <property name="env.NovOSDMUILanguage" value="none" />
+    <property name="env.USERDNSDOMAIN" value="NA.NOVARTIS.NET" />
+    <property name="env.JAVA_HOME" value="C:\Software\jdk1.6.0_38" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="user.dir" value="C:\TestAntProject\Calculator" />
+    <property name="env.FP_NO_HOST_CHECK" value="NO" />
+    <property name="test.dir" value="C:\TestAntProject\Calculator\tests" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="env._USE_CLASSPATH" value="no" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="env.NovInstallDate" value="1/28/2015 1:29:27 PM" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="x86" />
+    <property name="java.vm.version" value="20.13-b02" />
+    <property name="java.class.path" value="C:\TestAntProject\Calculator\bin;C:\TestAntProject\Calculator\lib\junit.jar;C:\TestAntProject\Calculator\bin\tests;C:\Jenkins\tools\hudson.tasks.Ant_AntInstallation\C_Software_apache-ant-1.9.2\lib\ant-launcher.jar;C:\Jenkins\tools\hudson.tasks.Ant_AntInstallation\C_Software_apache-ant-1.9.2\lib\ant.jar;C:\Jenkins\tools\hudson.tasks.Ant_AntInstallation\C_Software_apache-ant-1.9.2\lib\ant-junit.jar;C:\Jenkins\tools\hudson.tasks.Ant_AntInstallation\C_Software_apache-ant-1.9.2\lib\ant-junit4.jar" />
+    <property name="env.HOMEPATH" value="\" />
+    <property name="env.UATDATA" value="C:\WINDOWS\system32\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77" />
+    <property name="ant.library.dir" value="C:\Jenkins\tools\hudson.tasks.Ant_AntInstallation\C_Software_apache-ant-1.9.2\lib" />
+    <property name="os.arch" value="x86" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="env.BUILD_ID" value="14" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="ant.core.lib" value="C:\Jenkins\tools\hudson.tasks.Ant_AntInstallation\C_Software_apache-ant-1.9.2\lib\ant.jar" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="file.separator" value="\" />
+    <property name="java.runtime.version" value="1.6.0_38-b05" />
+    <property name="sun.boot.class.path" value="C:\Software\jdk1.6.0_38\jre\lib\resources.jar;C:\Software\jdk1.6.0_38\jre\lib\rt.jar;C:\Software\jdk1.6.0_38\jre\lib\sunrsasign.jar;C:\Software\jdk1.6.0_38\jre\lib\jsse.jar;C:\Software\jdk1.6.0_38\jre\lib\jce.jar;C:\Software\jdk1.6.0_38\jre\lib\charsets.jar;C:\Software\jdk1.6.0_38\jre\lib\modules\jdk.boot.jar;C:\Software\jdk1.6.0_38\jre\classes" />
+    <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+    <property name="env.NovIsGxP" value="0" />
+    <property name="env.WORKSPACE" value="C:\TestAntProject\Calculator" />
+    <property name="env.TEMP" value="C:\Users\MESHRNI1\AppData\Local\Temp" />
+    <property name="env.ANT_HOME" value="C:\Jenkins\tools\hudson.tasks.Ant_AntInstallation\C_Software_apache-ant-1.9.2" />
+    <property name="user.country" value="US" />
+    <property name="env.EXECUTOR_NUMBER" value="0" />
+    <property name="env.NovMachineRole" value="Desktop" />
+    <property name="java.vendor" value="Sun Microsystems Inc." />
+    <property name="env.NovDivision" value="PH" />
+    <property name="env.PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files\Microsoft Application Virtualization\Client\" />
+    <property name="env.HUDSON_COOKIE" value="0d6a2054-5189-4f2d-9ef4-b572632a0ac1" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="env.=ExitCode" value="00000002" />
+    <property name="sun.arch.data.model" value="32" />
+  </properties>
+  <testcase classname="com.calc.Junit.FunctionsTest" name="testAdd" time="0.0010" />
+  <testcase classname="com.calc.Junit.FunctionsTest" name="testSub" time="0.0060">
+    <failure message="expected:&lt;2&gt; but was:&lt;1&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;2&gt; but was:&lt;1&gt;
+	at com.calc.Junit.FunctionsTest.testSub(FunctionsTest.java:18)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
