@@ -8,8 +8,8 @@
 	<property environment="env"/>
 	<property name="junit.output.dir" value="junit"/>
 	<property name="debuglevel" value="source,lines,vars"/>
-	<property name="target" value="1.7"/>
-	<property name="source" value="1.7"/>
+	<property name="target" value="1.6"/>
+	<property name="source" value="1.6"/>
 	<property name="src.dir" location="src" />
 	<property name="test.dir" location="tests" />
 	<property name="build.dir" location="bin" />
@@ -44,8 +44,7 @@
 	<target depends="init,makedir" name="build-project">
 		<echo message="Using Java version ${ant.java.version}."/>
 		<echo message="${ant.project.name}: ${ant.file}"/>
-		<javac debug="true" debuglevel="${debuglevel}"  destdir="bin" includeantruntime="false" source="${source}" target="${target}" fork="yes"
-	         executable="C:/Software/jdk1.6.0_38/bin/javac" >
+		<javac debug="true" debuglevel="${debuglevel}"  destdir="bin" includeantruntime="false" source="${source}" target="${target}">
 			<src path="src"/>
 			<classpath refid="Calculator.classpath"/>
 		</javac>
