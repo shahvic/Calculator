@@ -15,7 +15,7 @@ public class FunctionsTest extends TestCase {
 
 	public void testSub() {
 		int result = f.sub(3, 2);
-		assertEquals(1, result);
+		assertEquals(2, result);
 	}
 
 	public void testMultiply() {
