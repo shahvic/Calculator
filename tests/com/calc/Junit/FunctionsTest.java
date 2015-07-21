@@ -11,15 +11,18 @@ public class FunctionsTest extends TestCase {
 	public void testAdd() {
 		int result= f.add(2, 3);
 		assertEquals(5, result);
+		
 	}
 
 	public void testSub() {
 		int result = f.sub(3, 2);
 		assertEquals(2, result);
+		
 	}
 
 	public void testMultiply() {
 		int result = f.multiply(2, 3);
+		assertEquals(6, result);
 		assertEquals(6, result);
 	}
 
